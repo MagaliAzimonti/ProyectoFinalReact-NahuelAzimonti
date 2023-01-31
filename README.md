@@ -1,18 +1,19 @@
-CompuMundo HMR
-
-Alumno: Nahuel Azimonti
+# CompuMundo HMR
 CompuMundo HiperMegaRed es un simulador de eCommerce, una tienda de informática, especializada en venta de hardware
 
-Instalación Local
-$ git clone https://github.com/MagaliAzimonti/ProyectoFinalReact-Nahuel-Azimonti.git
+## Alumno
+Nahuel Azimonti
 
-$ cd appcompumundohmr
+## Instalación Local
+* git clone https://github.com/MagaliAzimonti/ProyectoFinalReact-Nahuel-Azimonti.git
 
-$ npm install
+* cd appcompumundohmr
 
-$ npm start
+* npm install
 
-Routes
+* npm start
+
+## Routes
 En App.js:
 
 La Ruta "/" muestra todos los productos de ItemListContainer y el mensaje "Todos nuestros productos".
@@ -23,6 +24,7 @@ La Ruta "/category/:categoryId" muestra el mensaje "Productos filtrados" y a su 
 
 La Ruta "*" determina que toda ruta no especificada a la cual se quiera acceder culmine en un "ERROR 404 NOT FOUND".
 
-Herramientas implementadas
+## Herramientas implementadas
 Create-React-App
+
 Bootstrap
